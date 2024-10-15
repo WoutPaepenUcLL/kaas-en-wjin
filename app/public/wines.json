@@ -1,0 +1,24 @@
+{
+
+  "landing": {
+    "title": "Wine List",
+    "description": "Welcome to our wine list. We offer a variety of wines from around the world. Please select a category to view our selection."
+  },
+    
+        "white": [
+          { "name": "Pinot Grigio, Villa Loren, Venezie IGT, Italië, 2022", "description": "Gelegen op het grondgebied van Valpolicella, waar de beroemde Amarone werd geboren en aan het omliggende Prosecco-gebied. Een fruitige, frisse en gevarieerde wijn met geuren van tropisch fruit en verleidelijke bloemige tonen." },
+          { "name": "Domaine des Frères Laffitte, Côtes de Gascogne IGP, Frankrijk, 2022", "description": "Aroma's van abrikoos, witte perzik en citrus. In de mond een frisse en aromatische wijn met meer tropische fruit zoals kiwi en grapefruit. HVE niveau 3 gecertificeerd, dit duid aan dat ze zo biologische mogelijk werken." },
+            {"name": "Busy Bee 'Chenin Blanc', Swartland, Zuid-Afrika, 2022", "description": "Een frisse, fruitige en volle wijn met een vleugje gedroogde peren en abrikozen. Mooie mondvulling!" },
+            {"name": "Chardonnay 'Cuvée Réserve', Saint-Colias, Pays d'Oc IGP, Frankrijk, 2022", "description": "Korte schilinweking gevolgd door lange alcoholische fermentatie in grote Franse eiken vaten gedurende 6 maanden. In de neus aroma's van bloemen, citrus en pruimen. In de mond zacht en romig maar met een verfrissende afdronk. Een perfect alternatief voor witte Bourgognes! KROONJUWEEL!" }
+            
+
+        ],
+        "red": [
+          { "name": "Cabernet Sauvignon", "description": "Bold red wine with flavors of black currant and cedar." },
+          { "name": "Pinot Noir", "description": "Light-bodied red with cherry and earthy notes." }
+        ],
+        "cava": [
+          { "name": "Brut Nature", "description": "Dry sparkling wine with zero added sugar." },
+          { "name": "Rosé Cava", "description": "Pink sparkling wine with red fruit flavors." }
+        ]
+    }
