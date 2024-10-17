@@ -3,6 +3,7 @@ import React from 'react';
 interface Wine {
   name: string;
   description: string;
+  kroonjuweel?: boolean;
 }
 
 interface WineSectionProps {
@@ -39,6 +40,9 @@ const WineSection: React.FC<WineSectionProps> = ({ wines }) => {
           </svg>
         </button>
         </h2>
+        {wine.kroonjuweel && (
+          <p className="text-gray-800 font-semibold">(Kroonjuweel)</p>
+        )}
         <div
         className={`overflow-hidden transition-max-height duration-300 ease-in-out ${expandedIndexes.includes(index) ? 'max-h-96' : 'max-h-0'}`}
         >
