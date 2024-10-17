@@ -1,9 +1,6 @@
 export const wines = {
 
-  "landing": {
-    "title": "Wine List",
-    "description": "Welcome to our wine list. We offer a variety of wines from around the world. Please select a category to view our selection."
-  },
+  
     
         "white": [
           { "name": "Pinot Grigio, Villa Loren, Venezie IGT, Italië, 2022", "description": "Gelegen op het grondgebied van Valpolicella, waar de beroemde Amarone werd geboren en aan het omliggende Prosecco-gebied. Een fruitige, frisse en gevarieerde wijn met geuren van tropisch fruit en verleidelijke bloemige tonen." },

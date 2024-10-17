@@ -3,12 +3,12 @@
 import { useState } from 'react';
 import Navbar from './Navbar';
 import WineSection from './WineSection';
+import { wines } from '../public/wines';
 
 const WineEvening: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('white');
 
   //get wines from ./public/data/wines.json
-  const wines = require('../public/wines.json');
 
   return (
     <div className="min-h-screen bg-gray-100">
