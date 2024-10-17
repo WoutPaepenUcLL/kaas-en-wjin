@@ -6,11 +6,11 @@ import Navbar from './components/Navbar';
 import WineSection from './components/WineSection';
 import WineEvening from './components/LandingPage';
 import { HomePage } from './components/HomePage';
+import {wines} from './public/wines';
 
 
 const Home: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('landing');
-  const wines = require('./public/wines.json');
   return (
     <>
     <div className="min-h-screen bg-gray-100">

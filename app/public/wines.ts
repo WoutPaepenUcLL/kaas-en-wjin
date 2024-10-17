@@ -1,4 +1,4 @@
-{
+export const wines = {
 
   "landing": {
     "title": "Wine List",
