@@ -7,7 +7,7 @@ import {wines} from './public/wines';
 
 
 const Home: React.FC = () => {
-  const [activeSection, setActiveSection] = useState<string>('landing');
+  const [activeSection, setActiveSection] = useState<string>('home');
   return (
     <>
     <div className="min-h-screen bg-gray-100">
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
           Welkom bij onze wijnproeverij
         </h1>
         {
-          activeSection !== 'landing' ? <WineSection wines={wines[activeSection as keyof typeof wines]} /> : <>
+          activeSection !== 'home' ? <WineSection wines={wines[activeSection as keyof typeof wines]} /> : <>
             <h2 className="text-2xl font-semibold text-green-800 mb-2">Start met zoeken door de wijnen:</h2>
             {/* a grid with 3 buttons white wine, red wine and bubbles that when clicked sets activeSection to the respective page and appears with a nice animation */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

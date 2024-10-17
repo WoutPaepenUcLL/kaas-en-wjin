@@ -6,7 +6,7 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection }) => {
-  const navItems = ['white', 'red', 'cava'];
+  const navItems = ['home','wit', 'rood', 'bubbels'];
 
   return (
     <nav className="bg-green-700 p-4 shadow-md">
@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection }) => {
               }`}
               onClick={() => setActiveSection(item)}
             >
-              {item.charAt(0).toUpperCase() + item.slice(1)} Wine
+              {item.charAt(0).toUpperCase() + item.slice(1)}
             </button>
           </li>
         ))}
