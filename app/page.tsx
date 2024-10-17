@@ -23,13 +23,13 @@ const Home: React.FC = () => {
             {/* a grid with 3 buttons white wine, red wine and bubbles that when clicked sets activeSection to the respective page and appears with a nice animation */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <button 
-              onClick={() => setActiveSection('white')} 
+              onClick={() => setActiveSection('wit')} 
               className="bg-green-800 text-white p-4 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
               >
               Witte wijn
               </button>
               <button 
-              onClick={() => setActiveSection('red')} 
+              onClick={() => setActiveSection('rood')} 
               className="bg-green-800 text-white p-4 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
               >
               Rode wijn
