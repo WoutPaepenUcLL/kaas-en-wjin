@@ -20,8 +20,8 @@ export const wines = {
             {"name": "6 Anime, Cignomoro, Puglia IGP, Italië, 2022", "description": "Samenstelling van 6 druiven: Primitivo, Negroamaro, Malvasia Nera, Nero di Troia, Aglianico en Susumaniello. Bouquet van rijp fruit, zoals zwarte bessen en bramen, met een hint van getoast eikenhout, chocolade, amandelen en koffie. Hij is zacht in de mond, met een grote concentratie van uitstekend fruit, mooi in balans met delicate, zachte tannines. Prachtige frisheid! Te ontdekken! Gold Medal Concours Mondial Bruxelles | Gold Gilbert & Gaillard Selection | Gold Berliner Trophy", "kroonjuweel": true },
           ],
         "bubbels": [
-          { "name": "Brut Nature", "description": "Dry sparkling wine with zero added sugar." },
-          { "name": "Rosé Cava", "description": "Pink sparkling wine with red fruit flavors." }
+          { "name": "Valle Calda, Vino Frizzante Bianco Secco, Veneto, Italië", "description": "Strogele kleur. Fruitige, frisse aroma's met bloemige tonen. De smaal is vol, intens en persistent. Lekker als aperitief en ook perfect als basis voor uw Apérol Spritz." },
+          { "name": "Brut, Portium, Cava DO, Catalunya, Spanje", "description": "Samenstelling van 45% Macabeo, 20% Parellada, 30% Xarel-lo en 5% Chardonnay Een perfecte alternatief voor Champagne! De fijne bubbels en de volle smaak gecombineerd met frisse zuren, maken van deze cava een heerlijk aperitief." }
           
         ],
         "porto": [
