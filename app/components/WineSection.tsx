@@ -24,13 +24,14 @@ const WineSection: React.FC<WineSectionProps> = ({ wines }) => {
       {wines.map((wine, index) => (
       <div 
         key={index} 
+       
         className="bg-white p-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-102 hover:shadow-lg wine-card"
       >
+        <button onClick={() => toggleDescription(index)}  className="focus:outline-none">
         <h2 className="text-2xl font-semibold text-green-800 mb-2 flex justify-between items-center">
         {wine.name}
-        <button onClick={() => toggleDescription(index)} className="focus:outline-none">
           <svg
-          className={`w-6 h-6 transition-transform duration-300 ${expandedIndexes.includes(index) ? 'rotate-180' : ''}`}
+          className={`w-6 h-6 text-right ml-4 transition-transform duration-300 ${expandedIndexes.includes(index) ? 'rotate-180' : ''}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -38,8 +39,8 @@ const WineSection: React.FC<WineSectionProps> = ({ wines }) => {
           >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
           </svg>
-        </button>
         </h2>
+        </button>
         {wine.kroonjuweel && (
           <p className="text-gray-800 font-semibold">(Kroonjuweel)</p>
         )}
