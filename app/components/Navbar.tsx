@@ -6,7 +6,7 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection }) => {
-  const navItems = ['home','wit', 'rood', 'bubbels'];
+  const navItems = ['home','wit', 'rood', 'bubbels', 'porto'];
 
   return (
     <nav className="bg-green-700 p-4 shadow-md">

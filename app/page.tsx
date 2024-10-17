@@ -35,10 +35,16 @@ const Home: React.FC = () => {
               Rode wijn
               </button>
               <button 
-              onClick={() => setActiveSection('bubbles')} 
+              onClick={() => setActiveSection('bubbels')} 
               className="bg-green-800 text-white p-4 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
               >
               Bubbels
+              </button>
+              <button 
+              onClick={() => setActiveSection('porto')} 
+              className="bg-green-800 text-white p-4 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+              >
+              Porto
               </button>
             </div>
           </>
