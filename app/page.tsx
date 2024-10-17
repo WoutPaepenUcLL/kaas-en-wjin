@@ -1,11 +1,8 @@
 // pages/index.tsx
 'use client'
 import { useState } from 'react';
-import Head from 'next/head';
 import Navbar from './components/Navbar';
 import WineSection from './components/WineSection';
-import WineEvening from './components/LandingPage';
-import { HomePage } from './components/HomePage';
 import {wines} from './public/wines';
 
 
